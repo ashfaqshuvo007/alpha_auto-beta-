@@ -1,0 +1,57 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+    .text_construction{
+        font-size: 50px;
+    }
+    .text_stock{
+        font-size: 20px;
+        margin: 0 30% 0 30%;
+    }
+    .view_car_img{
+        height: auto;
+    }
+    .view_car_table{
+        height: auto;
+    }
+}
+
+/*For mobile screen*/
+@media (max-width: 576px) {
+    body {
+        padding-top: 56px;
+    }
+    .text_construction{
+        font-size: 30px;
+    }
+    .text_stock{
+        font-size: 18px;
+/*        margin: 0 30% 0 30%;*/
+    }
+    .f-left{
+        float: left;
+    }
+  
+}
+/*For mobile screen*/
+@media (max-width: 768px) {
+    body {
+        padding-top: 56px;
+    }
+    .text_construction{
+        font-size: 30px;
+    }
+    .text_stock{
+        font-size: 18px;
+/*        margin: 0 30% 0 30%;*/
+    }
+    .f-left{
+        float: left;
+    }
+  
+}
