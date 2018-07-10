@@ -52,13 +52,7 @@ include 'connection.php';
                         ?>">
                             <a class="nav-link" href="add_stock.php">Add Stock</a>
                         </li>
-                        <li class="nav-item <?php
-                        if ($page == 'add_images') {
-                            echo 'active';
-                        }
-                        ?>">
-                            <a class="nav-link" href="add_images.php">Add Images</a>
-                        </li>
+                        
                         <li class="nav-item <?php
                         if ($page == 'add_client') {
                             echo 'active';
