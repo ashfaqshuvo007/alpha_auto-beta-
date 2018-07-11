@@ -24,8 +24,8 @@ if (isset($_GET['id'])) {
             $image = $stmt->fetchAll();
             ?>
             <?php foreach ($image as $v) { ?> 
-            <a href="uploads/car_images/<?php echo $v['image']; ?>" target="_blank" >
-                    <img src="uploads/car_images/<?php echo $v['image']; ?>" class="img-fluid w-25" data-toggle="modal" data-target="#imageModal" alt="Responsive image" title="" />
+            <a href="uploads/car_images/<?php echo $v['name']; ?>" target="_blank" >
+                    <img src="uploads/car_images/<?php echo $v['name']; ?>" class="img-fluid w-25" data-toggle="modal" data-target="#imageModal" alt="Responsive image" title="" />
                 </a>
             <?php } ?>
 
